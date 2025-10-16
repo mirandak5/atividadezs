@@ -1,4 +1,4 @@
-
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,7 +8,7 @@ public class Dano : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);          
+            SceneManager.LoadScene(SceneManager.GetActiveScene().scene1);          
         }
     }
 }
