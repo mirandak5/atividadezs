@@ -2,13 +2,13 @@ using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Dano : MonoBehaviour
+public class Warn : MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().scene1);          
-        }
-    }
+     {
+         if (other.gameObject.CompareTag("Player"))
+         {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);          
+         }
+     }
 }
