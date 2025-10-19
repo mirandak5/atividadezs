@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Terrain (32x32)_72
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -1267144165, guid: 7161964bc8dde014b821deabe954efeb, type: 3}
+  m_Sprite: {fileID: -837483685, guid: 64c6033d25a0d3142ae5a45d2de79de3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
