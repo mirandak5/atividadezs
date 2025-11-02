@@ -4,12 +4,12 @@ using UnityEngine.SceneManagement;
 public class Porta : MonoBehaviour
 {
     
-    public string SceneName;
+    public string sceneName;
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(SceneName);
+            SceneManager.LoadScene(sceneName);
         }
     }
 }

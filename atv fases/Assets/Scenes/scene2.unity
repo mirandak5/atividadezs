@@ -11414,7 +11414,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2934119414681266220, guid: 3ecb033d58628194dbdd3779a9bb7ec2, type: 3}
       propertyPath: SceneName
-      value: scene 3
+      value: scene3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2934119414681266220, guid: 3ecb033d58628194dbdd3779a9bb7ec2, type: 3}
+      propertyPath: sceneName
+      value: scene3
       objectReference: {fileID: 0}
     - target: {fileID: 3811222944717434008, guid: 3ecb033d58628194dbdd3779a9bb7ec2, type: 3}
       propertyPath: m_LocalPosition.x
