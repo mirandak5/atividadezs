@@ -11487,7 +11487,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1715223372966211046, guid: b644f4d3f4c2421489e0a8ea225f36aa, type: 3}
       propertyPath: distanciaDeVisao
-      value: 1.41
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7702427629600519900, guid: b644f4d3f4c2421489e0a8ea225f36aa, type: 3}
       propertyPath: m_LocalPosition.x
